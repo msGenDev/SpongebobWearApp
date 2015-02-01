@@ -7,7 +7,7 @@
     <pl.droidsonroids.gif.GifImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/sponge0"
+        android:src="@drawable/waiting"
         android:background="@drawable/waiting"
         android:id="@+id/android_gif_drawable" />
 
@@ -40,8 +40,8 @@
         android:layout_height="50dp"
         android:drawableTop="@drawable/learn"
         android:id="@+id/teach_button"
-        android:layout_x="141dp"
-        android:layout_y="141dp" />
+        android:layout_x="132dp"
+        android:layout_y="142dp" />
 
 
 </AbsoluteLayout>

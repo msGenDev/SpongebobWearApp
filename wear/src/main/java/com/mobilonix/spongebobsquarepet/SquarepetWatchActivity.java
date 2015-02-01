@@ -10,7 +10,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.felipecsl.gifimageview.library.GifImageView;
 import com.mobilonix.spongebobsquarepet.callbacks.AnimationCallback;
 import com.mobilonix.spongebobsquarepet.movie.GifView;
 import com.mobilonix.spongebobsquarepet.util.Util;
@@ -21,6 +20,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 import pl.droidsonroids.gif.GifDrawable;
+import pl.droidsonroids.gif.GifImageView;
 
 public class SquarepetWatchActivity extends Activity {
 
