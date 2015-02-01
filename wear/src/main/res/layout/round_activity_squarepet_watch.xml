@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/sponge0"
-        android:background="@drawable/sponge1"
+        android:background="@drawable/waiting"
         android:id="@+id/android_gif_drawable" />
 
     <Button
