@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".SquarepetWatchActivity"
+    tools:deviceIds="wear_round">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/sponge0"
+        android:background="@drawable/sponge1"
+        android:id="@+id/android_gif_drawable" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/feed_button"
+        android:drawableTop="@drawable/food"
+        android:layout_x="34dp"
+        android:layout_y="21dp" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:drawableTop="@drawable/play"
+        android:id="@+id/walk_button"
+        android:layout_x="34dp"
+        android:layout_y="141dp" />
+
+    <Button
+        android:layout_width="48dp"
+        android:layout_height="50dp"
+        android:drawableTop="@drawable/fitness"
+        android:id="@+id/play_button"
+        android:layout_x="135dp"
+        android:layout_y="21dp" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:drawableTop="@drawable/learn"
+        android:id="@+id/teach_button"
+        android:layout_x="141dp"
+        android:layout_y="141dp" />
+
+
+</AbsoluteLayout>
