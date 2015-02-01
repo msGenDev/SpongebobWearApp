@@ -5,6 +5,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.wearable.view.WatchViewStub;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -21,10 +22,10 @@ public class SquarepetWatchActivity extends Activity {
     GifImageView gifImageView;
 
     //Image Buttons
-    Button feedButton
-    Button playButton
-    Button fitnessButton
-    Button 
+    Button feedButton;
+    Button playButton;
+    Button fitnessButton;
+    Button teachButton;
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,10 +47,45 @@ public class SquarepetWatchActivity extends Activity {
             }
         });
         
+        initUI();
         initUIListeners();
     }
     
+    public void initUI() {
+        feedButton = (Button)findViewById(R.id.feed_button);
+        playButton = (Button)findViewById(R.id.play_button);
+        fitnessButton = (Button)findViewById(R.id.walk_button);
+        teachButton = (Button)findViewById(R.id.teach_button);
+    }
+    
     public void initUIListeners() {
+        feedButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                
+            }
+        });   
         
+        playButton.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                
+            }
+        });
+        fitnessButton.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                
+            }
+        });
+        teachButton.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 }
